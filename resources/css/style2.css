@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFCCCB;
+    text-rendering: optimizeLegibility;
+}
+
+/* --------------------------- */
+/* -----------------nav-bar-------------- */
+/* ---------------------------------------- */
+header{
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(104, 33, 33);
+    height: 100px;
+    background-attachment: fixed;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    font-size: 150%;
+    float: right;
+    list-style: none;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+    color: aliceblue;
+}
+
+/* ------------------------------------------ */
+/* -----------------------Intro-------------------- */
+/* ----------------------------------------------------- */
+
+
+.Intro{
+    background-color: #444343;
+    background-position: center;
+    background-size: cover;
+    height:50vh;
+    position: relative;
+    text-align: center;
+}
+
+
+h1{
+    color: white;
+    font-size: 300%;
+    padding-top: 150px;
+    display: block;
+}
+
+.Intro  p{
+    color: rgb(146, 3, 3);
+    font-style: italic;
+    font-size: 200%;
+    display: block;
+    font-weight: 200;
+}
+
+/* ----------------------------------- */
+/* --------------Projects------------------- */
+/* --------------------------------------------- */
+a{
+    text-decoration: none;
+}
+.projects{
+    display: block;  
+}
+
+.project.project-title{
+    box-shadow: #8b8989;
+}
+
+.projects h1{
+    padding-bottom: 20px;
+    margin-left: 650px;
+    text-align: center;
+    max-width: 600px;
+    border-bottom: 0.2rem solid white;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 75%;
+    object-fit: cover;
+}
+img{
+    display: block;
+    width:50%;
+}
+
+
+.project-des{
+    font-size: 150%;
+    text-align: center;
+    width:450px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    background-color: #444343;
+    box-shadow: #8b8989;
+}
+
+
+
+.code{
+    color: #444343;
+    transition: .3s ease-out;
+}
+
+a:hover
+.code{
+    color:orange;
+}
+
+
+.btn{
+    text-align: center;
+}
+
+.btn a{
+    background-color: #444343;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    transition: all .3s;
+}
+
+.btn:hover a{
+    color:white;
+    background-color: red;
+}
+
+/* ------------------------------------------------ */
+/* ----------Contact--------------- */
+/* --------------------------------- */
+
+.contact{
+    margin-top: 100px;
+    background: #444343;
+    text-align: center;
+    line-height: 80px;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    border-bottom: 5px solid red;
+}
+
+.contact-header h1{
+    font-size: 300%;
+}
+
+.contact-header p{
+    font-style: italic;
+    color: aliceblue;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.contact-links{
+    display: inline-block;
+}
+
+.contact-details{
+    width: 100px;
+    padding: 50px 50px;
+    font-size: 120%;
+    color: aliceblue;
+}
+
+
+
+/* -------------------------------------------------------- */
+/* -----------------------Outtro-------------------------------- */
+/* ------------------------------------------------------------------ */
+
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: 130%;
+}
